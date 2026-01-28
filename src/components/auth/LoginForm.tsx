@@ -126,7 +126,7 @@ export default function LoginForm() {
             {showPassword ? "🙈" : "👁️"}
           </button>
         </div>
-                </div>
+        </div>
 
                 {/* button */}
                <button
@@ -138,7 +138,7 @@ export default function LoginForm() {
         >
           {loading ? "Signing in..." : "Sign in"}
         </button>
-        
+
         {/* footer */}
         <p className="mt-7 text-center text-sm text-black/60">
           Don’t have an account?{" "}
