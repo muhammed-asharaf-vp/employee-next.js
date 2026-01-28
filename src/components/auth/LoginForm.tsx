@@ -128,16 +128,16 @@ export default function LoginForm() {
         </div>
         </div>
 
-                {/* button */}
+         {/* button */}
                <button
           onClick={submit}
           disabled={loading}
           className="w-full rounded-xl bg-[#2563EB] text-white py-2.5 font-medium
             transition-all duration-300 hover:bg-[#1E4FD8] active:scale-[0.98]
             disabled:opacity-60"
-        >
+           >
           {loading ? "Signing in..." : "Sign in"}
-        </button>
+           </button>
 
         {/* footer */}
         <p className="mt-7 text-center text-sm text-black/60">
