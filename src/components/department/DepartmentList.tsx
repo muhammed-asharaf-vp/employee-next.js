@@ -59,9 +59,10 @@ export default function DepartmentList() {
   /* loading state */
   if (loading)
     return (
-      <p className="py-10 text-center text-sm text-black/60">
-        <Loader/>
-      </p>
+     <div className="py-10 text-center text-sm text-black/60">
+  <Loader />
+</div>
+
     )
 
   /* error state */
